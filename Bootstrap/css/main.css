@@ -1,0 +1,399 @@
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #FAFAFA;
+  overflow-x: hidden; }
+  body header {
+    margin-top: 12px; }
+    body header nav a {
+      font-size: 22px;
+      color: #008F48;
+      transition: none;
+      margin-right: 25px; }
+    @media (max-width: 992px) {
+      body header nav .header-one {
+        padding-left: 0;
+        margin-top: 25px;
+        margin-bottom: 25px; } }
+    body header nav .header-one .relative {
+      position: relative;
+      margin-top: 5px; }
+      body header nav .header-one .relative .form-control {
+        box-shadow: 0px 2px 2px rgba(204, 204, 204, 0.51);
+        border-radius: 5px;
+        padding-left: 45px;
+        outline: none; }
+        body header nav .header-one .relative .form-control::placeholder {
+          color: #636363;
+          font-size: 16px;
+          line-height: 19px; }
+      body header nav .header-one .relative .absolute {
+        position: absolute;
+        top: 5px;
+        left: 13px; }
+    body header nav .header-two div {
+      margin-left: 100px; }
+      @media (max-width: 992px) {
+        body header nav .header-two div {
+          margin-left: 0; } }
+      body header nav .header-two div button {
+        outline: none;
+        padding-right: 30px;
+        color: #A3A3A3;
+        font-size: 14px; }
+      body header nav .header-two div a {
+        border: 1px solid #008F48;
+        border-radius: 10px;
+        font-size: 16px;
+        color: #008F48;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 7px; }
+        @media (max-width: 576px) {
+          body header nav .header-two div a {
+            font-size: 11px;
+            padding-right: 5px; } }
+        body header nav .header-two div a img {
+          padding-left: 12px; }
+  body .bg-white-nav {
+    background-color: #fff;
+    box-shadow: 0px 2px 2px rgba(204, 204, 204, 0.51);
+    border-radius: 5px;
+    margin-top: 20px; }
+    body .bg-white-nav nav .navbar-brand {
+      border-radius: 10px;
+      background-color: #008F48;
+      padding: 4px 7px 10px 7px; }
+      @media (max-width: 992px) {
+        body .bg-white-nav nav .navbar-brand {
+          margin-right: 0 !important; } }
+    body .bg-white-nav nav .navbar-nav {
+      margin-left: 30px; }
+      @media (max-width: 992px) {
+        body .bg-white-nav nav .navbar-nav {
+          margin-left: 20px; } }
+      @media (max-width: 768px) {
+        body .bg-white-nav nav .navbar-nav {
+          margin-left: 0;
+          margin-top: 12px; } }
+      body .bg-white-nav nav .navbar-nav .nav-item .nav-link {
+        padding-right: 33px;
+        font-size: 14px;
+        color: #4D4D4D; }
+        @media (max-width: 992px) {
+          body .bg-white-nav nav .navbar-nav .nav-item .nav-link {
+            padding-right: 15px;
+            font-size: 13px; } }
+  body main {
+    margin-top: 35px; }
+    body main .main-one {
+      background-color: #fff;
+      border-radius: 10px; }
+      body main .main-one .first {
+        margin-left: 15px; }
+        body main .main-one .first .card-header {
+          margin-top: 10px; }
+          body main .main-one .first .card-header p {
+            color: #0B06FF;
+            font-size: 16px; }
+            @media (max-width: 576px) {
+              body main .main-one .first .card-header p {
+                font-size: 14px;
+                margin-bottom: 8px; } }
+          @media (max-width: 768px) {
+            body main .main-one .first .card-header .d-flex {
+              margin-right: 1rem !important; } }
+          body main .main-one .first .card-header .d-flex span {
+            color: #B0B0B0;
+            font-size: 16px; }
+            @media (max-width: 576px) {
+              body main .main-one .first .card-header .d-flex span {
+                font-size: 14px;
+                margin-bottom: 10px; } }
+        body main .main-one .first .card-body {
+          padding-right: 27px; }
+          body main .main-one .first .card-body h1 {
+            font-size: 30px;
+            line-height: 25px;
+            margin-bottom: 20px; }
+            @media (max-width: 1200px) {
+              body main .main-one .first .card-body h1 {
+                font-size: 25px; } }
+            @media (max-width: 576px) {
+              body main .main-one .first .card-body h1 {
+                line-height: 40px;
+                font-size: 20px; } }
+          body main .main-one .first .card-body p {
+            font-size: 20px;
+            line-height: 37px;
+            color: #595959; }
+            @media (max-width: 1200px) {
+              body main .main-one .first .card-body p {
+                font-size: 17px; } }
+          body main .main-one .first .card-body .line {
+            height: 1px;
+            background: #F0EDED;
+            margin-top: 50px; }
+      body main .main-one .comments h2 {
+        font-size: 22px;
+        color: #000;
+        margin-left: 29px; }
+      body main .main-one .comments h3 {
+        font-size: 18px;
+        line-height: 25px;
+        color: #000;
+        margin-right: 33px; }
+      body main .main-one .second {
+        margin-left: 12px;
+        margin-top: 20px; }
+        body main .main-one .second .card-header img {
+          margin-right: 26px; }
+        body main .main-one .second .card-header .text-area {
+          resize: none !important;
+          border-radius: 10px;
+          color: #C6C6C6;
+          font-size: 15px;
+          width: 550px;
+          height: 80px;
+          outline: none;
+          padding-left: 20px;
+          padding-top: 10px;
+          border: 1px solid #D7D7D7; }
+        body main .main-one .second .card-body .question h1 {
+          font-weight: bolder;
+          font-size: 16px;
+          line-height: 25px; }
+        body main .main-one .second .card-body .question p {
+          color: #000;
+          font-size: 15px;
+          margin-top: 8px; }
+        body main .main-one .second .card-body .question .d-flex {
+          margin-top: 5px; }
+          body main .main-one .second .card-body .question .d-flex img {
+            margin-right: 35px; }
+          body main .main-one .second .card-body .question .d-flex span {
+            color: #707070;
+            font-size: 15px; }
+          body main .main-one .second .card-body .question .d-flex p {
+            color: #707070;
+            font-size: 15px; }
+        body main .main-one .second .card-footer .question h1 {
+          font-weight: bolder;
+          font-size: 16px;
+          line-height: 25px; }
+        body main .main-one .second .card-footer .question p {
+          color: #000;
+          font-size: 15px;
+          margin-top: 8px;
+          line-height: 20px; }
+          body main .main-one .second .card-footer .question p a {
+            margin-left: 8px; }
+        body main .main-one .second .card-footer .question .d-flex {
+          margin-top: 5px; }
+          body main .main-one .second .card-footer .question .d-flex img {
+            margin-right: 35px; }
+          body main .main-one .second .card-footer .question .d-flex span {
+            color: #707070;
+            font-size: 15px; }
+          body main .main-one .second .card-footer .question .d-flex p {
+            color: #707070;
+            font-size: 15px; }
+    body main .main-two .card h1 {
+      font-size: 22px;
+      line-height: 24px;
+      color: #000;
+      font-weight: bolder;
+      padding-left: 35px;
+      padding-top: 35px; }
+    body main .main-two .card .card-header {
+      transition: all 0.4s ease;
+      margin-left: 16px; }
+      body main .main-two .card .card-header .d-flex {
+        margin-bottom: 14px; }
+        body main .main-two .card .card-header .d-flex .image {
+          mask-image: url("../../assets/icons/date.png");
+          -webkit-mask-image: url("../../assets/icons/date.png");
+          mask-repeat: no-repeat;
+          -webkit-mask-repeat: no-repeat;
+          mask-size: 100%;
+          -webkit-mask-size: 100%;
+          background-color: #BFBFBF;
+          height: 16.66666603088379px;
+          width: 18.666667938232422px;
+          transition: all 0.4s ease;
+          -webkit-transition: all 0.4s ease;
+          font-weight: bolder; }
+        body main .main-two .card .card-header .d-flex span {
+          font-size: 15px;
+          line-height: 100%;
+          color: #C7C7C7;
+          padding-left: 8px; }
+        body main .main-two .card .card-header .d-flex a {
+          font-family: sans-serif;
+          font-size: 15px;
+          line-height: 100%;
+          color: #0B06FF;
+          margin-right: 5px; }
+      body main .main-two .card .card-header .link {
+        font-size: 18px;
+        line-height: 24px;
+        color: #000;
+        transition: all 0.4s ease;
+        font-family: sans-serif; }
+        @media (max-width: 1200px) {
+          body main .main-two .card .card-header .link {
+            font-size: 14px; } }
+      body main .main-two .card .card-header .line-head {
+        height: 1px;
+        background: #F0EDED;
+        margin-top: 28px;
+        margin-bottom: 10px; }
+      body main .main-two .card .card-header:hover .image {
+        background-color: #000; }
+      body main .main-two .card .card-header:hover .link {
+        color: #008F48; }
+    body main .main-two .aside {
+      background: #F2F2F2;
+      border-radius: 10px;
+      padding: 40px 20px 50px 20px;
+      margin-top: 30px; }
+      body main .main-two .aside .flex-column h1 {
+        font-size: 24px;
+        line-height: 34px;
+        color: #0D374B; }
+      body main .main-two .aside .flex-column img {
+        padding-top: 36px;
+        padding-bottom: 20px; }
+      body main .main-two .aside .flex-column h2 {
+        font-size: 22px;
+        line-height: 30px;
+        color: #000; }
+    body main .latest-news {
+      margin-top: 100px; }
+      body main .latest-news h1 {
+        font-size: 32px;
+        line-height: 100%;
+        color: #000; }
+      body main .latest-news a {
+        margin-left: 11px; }
+    body main section {
+      margin-top: 50px; }
+      @media (max-width: 768px) {
+        body main section .main-card {
+          margin-bottom: 20px; } }
+      @media (max-width: 992px) {
+        body main section .main-card.media-margin {
+          margin-top: 20px; } }
+      body main section .main-card .card {
+        height: 100%; }
+        body main section .main-card .card .card-body span {
+          color: #B0B0B0;
+          font-size: 16px; }
+          @media (max-width: 1200px) {
+            body main section .main-card .card .card-body span {
+              font-size: 14px; } }
+          body main section .main-card .card .card-body span img {
+            padding-right: 5px; }
+        body main section .main-card .card .card-body p {
+          color: #B0B0B0;
+          font-size: 16px;
+          margin-left: 25px;
+          margin-right: 27px; }
+          @media (max-width: 1200px) {
+            body main section .main-card .card .card-body p {
+              font-size: 12px;
+              margin-left: 12px;
+              margin-right: 12px; } }
+          body main section .main-card .card .card-body p img {
+            padding-right: 5px; }
+        body main section .main-card .card .card-footer {
+          padding-bottom: 35px; }
+          body main section .main-card .card .card-footer h1 {
+            font-size: 18px;
+            line-height: 100%;
+            padding: 0; }
+            @media (max-width: 768px) {
+              body main section .main-card .card .card-footer h1 {
+                font-size: 15px; } }
+          body main section .main-card .card .card-footer a {
+            font-size: 16px;
+            line-height: 24px;
+            color: #909090;
+            text-align: justify;
+            margin-top: 40px;
+            margin-bottom: 22px; }
+            @media (max-width: 1200px) {
+              body main section .main-card .card .card-footer a {
+                font-size: 14px; } }
+            @media (max-width: 576px) {
+              body main section .main-card .card .card-footer a {
+                font-size: 13px; } }
+          body main section .main-card .card .card-footer .btn {
+            color: #008F48;
+            font-size: 18px;
+            line-height: 100%;
+            border: 1px solid #008F48;
+            border-radius: 10px;
+            outline: none;
+            padding: 11px 28px 11px 28px; }
+  body footer {
+    background-color: #5D5D5D;
+    margin-top: 100px;
+    padding-top: 78px;
+    padding-bottom: 60px; }
+    @media (max-width: 576px) {
+      body footer {
+        padding-bottom: 245px; } }
+    @media (max-width: 768px) {
+      body footer .footer-col {
+        margin-bottom: 30px; } }
+    body footer .footer-col h5 {
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #fff; }
+      @media (max-width: 992px) {
+        body footer .footer-col h5 {
+          font-size: 20px; } }
+      @media (max-width: 576px) {
+        body footer .footer-col h5 {
+          margin-left: 20px; } }
+    body footer .footer-col p {
+      font-size: 18px;
+      line-height: 28px;
+      color: #C0C0C0; }
+      @media (max-width: 576px) {
+        body footer .footer-col p {
+          margin-left: 20px; } }
+    body footer .footer-col h6 {
+      margin-bottom: 28px;
+      font-size: 20px;
+      color: #fff; }
+    body footer .footer-col .nav .nav-item .nav-link {
+      color: #C0C0C0;
+      font-size: 18px;
+      line-height: 100%;
+      padding-bottom: 25px; }
+    body footer .line-footer {
+      height: 1px;
+      background: #747474;
+      margin-top: 86px; }
+    body footer .dropdown .btn {
+      padding: 10px 20px 10px 20px; }
+    body footer .dropdown .dropdown-menu {
+      padding-left: 7px;
+      margin-top: 15px; }
+      body footer .dropdown .dropdown-menu .nav {
+        align-items: center; }
+        body footer .dropdown .dropdown-menu .nav .nav-item .nav-link {
+          color: #C0C0C0;
+          font-size: 13px;
+          line-height: 100%;
+          padding-bottom: 25px; }
+
+/*# sourceMappingURL=main.css.map */
